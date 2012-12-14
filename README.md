@@ -3,13 +3,13 @@ census-name-generator
 
 A brain-dead easy-to-use artificial name generator.  Syntax looks like this:
 
-  namegen.pl [options]
+    namegen.pl [options]
 
-  Options:
-  -n --names     Number of names to generate
-  -d --download  Download census name data
-  -r --ratio     Ratio of female vs male names as percentage (default 50)
-  -? --help      Display this help and exit
+    Options:
+    -n --names     Number of names to generate
+    -d --download  Download census name data
+    -r --ratio     Ratio of female vs male names as percentage (default 50)
+    -? --help      Display this help and exit
 
 
 The script uses 2010 Census data to ensure a realistic distribution.  ("John Smith" is more likely than
